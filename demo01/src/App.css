@@ -1,0 +1,9 @@
+button, input {
+    padding: 10px;
+    border: 1px solid grey
+}
+
+.tervehdys {
+    padding: 10px;
+    border: 1px solid grey;
+}
