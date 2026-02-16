@@ -1,4 +1,3 @@
-
 import { useRef, useState } from 'react';
 import './App.css';
 
@@ -25,7 +24,6 @@ function App() {
       tehty : false
     }
   ]);
-
 
   const lisaaTehtava = (nimi : string) : void => {
 
@@ -60,8 +58,10 @@ function App() {
         type="text"
         placeholder="Kirjoita tehtävä ja paina enter..."
         onKeyDown={(e : any) => {
+
           console.log(e.key);
           if (e.key === "Enter") {
+
             lisaaTehtava(e.target.value);
             e.target.value = null;
           }
@@ -74,7 +74,6 @@ function App() {
           uusiTehtava.current.value = "";
         }}
       >Lisää tehtävä</button>
-
       {Boolean(tehtavat.length > 0) &&
       <ul>
         {tehtavat.map((tehtava : Tehtava, idx : number) => {

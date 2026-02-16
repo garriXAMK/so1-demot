@@ -1,5 +1,9 @@
 # Demo 3: React-komponentit ja propsit
 
+## Tiedoksi
+
+Olen lisännyt jokaisen demon lähdekoodeihin kansion [src/kommentoidut_koodit](./src/kommentoidut_koodit/), jossa demon koodit löytyvät täysin kommentoituina logiikan osalta. Tein tämän erikseen, jotta sovelluksen käyttämät koodit pysyisivät paremmin luettavina. Kommenttien tarkoitus on tukea oppimista ja selittää tarkemmin sovelluksen teknistä toimintaa, mitä videoilla pystyy käymään läpi.
+
 ## Komponentin luominen
 
 Jokainen React-komponentti on rakenteeltaan JavaScript/TypeScript -funktio, joka voi ottaa vastaan ominaisuuden (ei pakollista) ja palauttaa JSX-merkkausta. Komponentti pitää määrittää vietäväksi (export), jos sitä halutaan kutsua toisessa tiedostossa. Jokaisessa komponenttitiedostossa on vähintään yksi komponentti, joka määritellään oletusvienniksi (export default). Jos samassa tiedostossa on useampi komponentti, joka halutaan viedä, niin oletus vienti määritetään tavallisesti ja muihin komponentteihin lisätään perusvienti (export).

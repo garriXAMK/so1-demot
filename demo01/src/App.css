@@ -1,3 +1,4 @@
+/* Tyylejä, jotka vaikuttavat vain App-komponentin elementteihin */
 button, input {
     padding: 10px;
     border: 1px solid grey

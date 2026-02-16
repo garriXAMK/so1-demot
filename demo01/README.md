@@ -1,5 +1,11 @@
 # Demo 1 - React-perusteita
 
+## Tiedoksi
+
+Olen lisännyt jokaisen demon lähdekoodeihin kansion [src/kommentoidut_koodit](./src/kommentoidut_koodit/), jossa demon koodit löytyvät täysin kommentoituina logiikan osalta. Tein tämän erikseen, jotta sovelluksen käyttämät koodit pysyisivät paremmin luettavina. Kommenttien tarkoitus on tukea oppimista ja selittää tarkemmin sovelluksen teknistä toimintaa, mitä videoilla pystyy käymään läpi.
+
+## Esimerkkejä
+
 ### 1. React-komponentin rakenne
 
 ```tsx

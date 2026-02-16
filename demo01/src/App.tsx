@@ -2,10 +2,12 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
+
   const [nimi, setNimi] = useState<string>("");
   const [tervehdys, setTervehdys] = useState<string>("");
 
   const tervehdi = (): void => {
+
     setTervehdys(`Heippa maailma, ${nimi} kävi täällä!`);
   };
 
