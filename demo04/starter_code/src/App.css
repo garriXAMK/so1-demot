@@ -1,0 +1,163 @@
+
+
+:root {
+
+    --vari1: aqua;
+    --vari2: rgb(164, 243, 243);
+    --inputTausta: white;
+}
+
+
+.header {
+    background-color: var(--vari1);
+    border: solid 1px black;
+    height: 80px;
+    text-align: center;
+    align-content: center;
+}
+
+.elementinRajaus {
+    border: solid 1px black;
+}
+
+.tuoteBox {
+    display: flex;
+    align-content: center;    
+    height: 80vh;
+}
+
+.tuoteRuutu {
+    background-color: var(--vari2);
+    height: 325px;   
+}
+
+.tuoteNimi {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.tuoteKuva {
+    text-align: center;
+    width: 95%;
+    height: 60%;
+    margin-left: 2%;
+    margin-top: 5px;        
+}
+
+.tuoteKuva img {
+    width: auto;
+    max-width: 260px;
+    height: 100%;
+}
+
+.lisaaKoriin {
+    text-align: center;
+}
+
+.kirjautumisBox {
+    background-color: var(--vari1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;         
+    width: 100%;   
+    padding-top: 10px;
+    padding-left: 10px;
+    min-height: 160px;
+}       
+
+.input {
+    background-color: var(--inputTausta);
+    border: solid 1px black;
+}
+
+.ostoskori {
+   height: 50%;
+}
+
+.ostoskoriOtsikko {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    background-color:var(--vari1);   
+    height: 50px; 
+    text-align: center;
+    align-content: center;
+}
+
+#kirjauduNappi {
+    margin-top: 10px;
+    }
+
+.lisaaKoriinNappi {
+    margin-top: 10px;
+    height: 25px;    
+}
+
+#kirjaudu_ulos_Nappi {
+    margin-top: 10%;
+}
+
+#maksaOstokset {
+    text-align: center;
+    margin-top: 100%;
+}
+
+#tilaaTuotteet_Nappi {
+    width: 200px;
+    height: 30px;
+    background-color: var(--vari1);
+    border-radius: 10px;
+}
+
+#pikaOstoskori {
+    text-align: center;
+}
+
+.hinnat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.veroton_hinta {
+    color: red;    
+}
+
+.yritysTunnus {
+    font-style: italic;
+}
+
+#footer_content {
+    display: flex;
+    flex-direction: row;
+}
+
+.yhteys {
+    width: 20%;    
+    text-align: left;    
+}
+
+.copyright {
+    width: 60%;
+    text-align: center;  
+      
+}
+
+.yhteysTeksti {
+    font-size: 0.8rem;
+    list-style-type: none;    
+}
+
+.copyrightTeksti {
+    font-size: 1.2rem;
+}
+
